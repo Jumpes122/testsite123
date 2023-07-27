@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    font-family: 'VT323', monospace; /* Fonte hacker VT323 */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('Design\ sem\ nome.png') no-repeat center center fixed;
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o background */
+    color: white;
+    display: flex;
+    flex-direction: column; /* Alterado para colocar o título acima do restante do conteúdo */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso centraliza o conteúdo verticalmente na tela */
+}
+
+
+
+
+.logo {
+    margin-top: -140px; /* Espaço maior acima da logo */
+    position: relative;
+    margin-bottom:40px ;
+  
+   
+ 
+}
+
+
+.logo img {
+    width: 500px;
+}
+
+h1 {
+    font-size: 48px; /* Tamanho do título */
+    margin-bottom: 40px; /* Espaço entre o título e o conteúdo abaixo */
+    margin-top: 100px; /* Ajuste a margem superior para mover o título para cima */
+
+  
+}
+
+#emailForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -110px;
+    z-index: 2;
+}
+
+#emailInput {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #008080; /* Azul quase verde (teal) */
+    border-radius: 5px; /* Bordas mais quadradas com leve arredondamento */
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #005959; /* Verde azulado bem escuro */
+    color: rgb(3, 36, 2);
+    text-align: left; /* Alinhamento do texto à esquerda */
+    z-index: 2;
+}
+
+#emailLabel {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px; /* Ajuste da margem para reduzir o espaço do texto */
+    color: white; /* Cor do texto "Seu e-mail" */
+    z-index: 2;
+}
+
+#accessButton {
+    width: 322px; /* Largura fixa para ambos os botões */
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Bordas mais quadradas com leve arredondamento */
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, #009933, #e0f803); /* Gradiente verde e preto mais intenso */
+    color: white; /* Cor do texto "Acessar" */
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    z-index: 6;
+}
+
+#accessButton:hover {
+    background: linear-gradient(to right, #66cc66, #ebfc02); /* Gradiente verde e preto mais intenso para hover */
+}
